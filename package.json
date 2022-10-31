@@ -19,6 +19,7 @@
         "@fortawesome/vue-fontawesome": "^3.0.0-5",
         "@vitejs/plugin-vue": "^3.1.2",
         "vue": "^3.2.41",
-        "vue-loader": "^17.0.0"
+        "vue-loader": "^17.0.0",
+        "vue-router": "^4.1.6"
     }
 }
