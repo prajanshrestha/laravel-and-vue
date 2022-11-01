@@ -6,12 +6,12 @@ const routes = [
     {
         path: "/",
         name: "Home",
-        component: "Home"
+        component: Home
     },
     {
         path: "/toDoListIndex",
         name: "ToDoListIndex",
-        component: "ToDoListIndex"
+        component: ToDoListIndex
     }
 ];
 
