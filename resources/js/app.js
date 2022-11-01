@@ -1,4 +1,4 @@
-import { createApp, VueElement } from "vue";
+import { createApp } from "vue";
 import App from "./vue/App.vue";
 import router from "./router";
 
@@ -13,7 +13,10 @@ import { dom } from "@fortawesome/fontawesome-svg-core";
 dom.watch();
 // end of font-awesome icons
 
-createApp(App).use(router).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
+createApp(App)
+    .use(router)
+    .component("font-awesome-icon", FontAwesomeIcon)
+    .mount("#app");
 
 
 
